@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Móveis Sob Medida em MDF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Móveis Sob Medida em MDF</h1>
+        <p>Transforme sua casa com móveis sob medida de alta qualidade!</p>
+    </header>
+
+    <main>
+        <section class="product">
+            <h2>Balcão de Cozinha 1m20cm (3D)</h2>
+            <img src="images/balcao-cozinha-3d.jpg" alt="Balcão de Cozinha 1m20cm">
+            <form action="https://site-de-pagamento.com" method="get">
+                <label>
+                    <input type="radio" name="medida" value="1m00cm"> 1m00cm
+                </label>
+                <label>
+                    <input type="radio" name="medida" value="1m10cm"> 1m10cm
+                </label>
+                <label>
+                    <input type="radio" name="medida" value="1m30cm"> 1m30cm
+                </label>
+                <label>
+                    <input type="radio" name="medida" value="1m40cm"> 1m40cm
+                </label>
+                <button type="submit">Comprar</button>
+            </form>
+        </section>
+
+        <section class="product">
+            <h2>Móvel Aéreo de Cozinha 1m20cm</h2>
+            <img src="images/movel-aereo-cozinha.jpg" alt="Móvel Aéreo de Cozinha 1m20cm">
+            <form action="https://site-de-pagamento.com" method="get">
+                <label>
+                    <input type="radio" name="medida" value="1m00cm"> 1m00cm
+                </label>
+                <label>
+                    <input type="radio" name="medida" value="1m10cm"> 1m10cm
+                </label>
+                <label>
+                    <input type="radio" name="medida" value="1m30cm"> 1m30cm
+                </label>
+                <label>
+                    <input type="radio" name="medida" value="1m40cm"> 1m40cm
+                </label>
+                <button type="submit">Comprar</button>
+            </form>
+        </section>
+
+        <section class="product">
+            <h2>Ilha em MDF com Pia e Banquetas</h2>
+            <img src="images/ilha-mdf-pia-banqueta.jpg" alt="Ilha em MDF com Pia e Banquetas">
+            <form action="https://site-de-pagamento.com" method="get">
+                <label>
+                    <input type="radio" name="medida" value="1m00cm"> 1m00cm
+                </label>
+                <label>
+                    <input type="radio" name="medida" value="1m10cm"> 1m10cm
+                </label>
+                <label>
+                    <input type="radio" name="medida" value="1m30cm"> 1m30cm
+                </label>
+                <label>
+                    <input type="radio" name="medida" value="1m40cm"> 1m40cm
+                </label>
+                <button type="submit">Comprar</button>
+            </form>
+        </section>
+
+        <section class="product">
+            <h2>Torre Quente</h2>
+            <img src="images/torre-quente.jpg" alt="Torre Quente">
+            <form action="https://site-de-pagamento.com" method="get">
+                <label>
+                    <input type="radio" name="medida" value="1m00cm"> 1m00cm
+                </label>
+                <label>
+                    <input type="radio" name="medida" value="1m10cm"> 1m10cm
+                </label>
+                <label>
+                    <input type="radio" name="medida" value="1m30cm"> 1m30cm
+                </label>
+                <label>
+                    <input type="radio" name="medida" value="1m40cm"> 1m40cm
+                </label>
+                <button type="submit">Comprar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Móveis Sob Medida em MDF. Todos os direitos reservados.</p>
+    </footer>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+section.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+section.product form {
+    margin-top: 20px;
+}
+
+section.product form label {
+    display: block;
+    margin: 10px 0;
+}
+
+section.product form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+section.product form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</body>
+</html>
